@@ -1,0 +1,64 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewreport" content="width=device-width, initial-scale=1.0">
+<title>FlyAway</title>
+<link rel="stylesheet" type="text/css"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+<link
+	href="https://fonts.googleapis.com/css?family=Raleway&display=swap"
+	rel="stylesheet" />
+<script src="https://kit.fontawesome.com/92e9dde9ec.js"
+	crossorigin="anonymous"></script>
+<style>
+.login {
+	margin-left: 50%;
+	margin-top: 40%;
+}
+</style>
+<link rel="stylesheet" href="../resources/index.css" type="text/css">
+<title>Insert title here</title>
+</head>
+<body>
+
+<body>
+    <div class="container-fluid banner">
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar navbar-md">
+                    <div class="navbar-brand text-dark"><i class="fas fa-plane"></i>FlyAway</div>
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#"><i class="fas fa-user-cog"></i> Admin Login</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-md-12">
+                <h2 class="text-center text-dark">
+                    Login
+                </h2>
+            </div>
+            <div class="row">
+                    <div class="col-md-12 bg-secondary login">
+                        <form name="contact-form" action="" method="POST">
+                            <div class="mb-3">
+                                <label for="email" class="col-form-label">Email:</label>
+                                <input type="text" class="form-control" id="email" name="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="name" class="col-form-label">Password:</label>
+                                <input type="password" class="form-control" id="password" name="password" required>
+                            </div>
+                            <input class="btn btn-primary mb-3" type="submit" value="Login">
+                        </form>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
