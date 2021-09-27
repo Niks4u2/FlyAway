@@ -134,7 +134,6 @@ table, th, td {
 								out.print("</tr>");
 							}
 						%>
-<!-- 							<td><a href="passenger-details.jsp"><button class="btn btn-primary">Book This Flight</button></a></td> -->
 						</tr>
 					</table>
 				</div>

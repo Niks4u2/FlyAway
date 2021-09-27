@@ -96,7 +96,7 @@ body {
 						<h5 class="card-title">Card Name: <%= session.getAttribute("cardname") %> | Card No.: <%= session.getAttribute("cardnum") %></h5>
 					</div>
 					<div class="card-header"><h2>Total Price: <%= session.getAttribute("total") %> </h2></div>
-					<button class="btn btn-primary mb-3 text-center" onclick="window.print()">Print</button>
+					<button class="btn btn-primary mb-3 text-center lead fw-bolder" onclick="window.print()">Print</button>
 				</div>
 			</div>
 		</div>

@@ -48,5 +48,16 @@ public class FlightDetailsDaoImpl implements FlightDetailsDao {
 		session.close();
 		return flights;
 	}
+	
+	public List<FlightDetails> getAllFlights() {
+		List<FlightDetails> flights = null;
+		Session session = factory.openSession();
+		
+		String hql = "FROM FlightDetails";
+		TypedQuery<FlightDetails> query = session.createQuery(hql);
+		flights = query.getResultList();
+		session.close();
+		return flights;
+	}
 
 }

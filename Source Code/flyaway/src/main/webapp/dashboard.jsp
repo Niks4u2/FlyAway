@@ -1,5 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
+<%@ page import="java.util.List" %>
+<%@ page import="com.dto.FlightDetails" %>
+<%@ page import="com.dao.FlightDetailsDaoImpl" %>
 <!DOCTYPE html>
 <html>
 
@@ -63,6 +66,18 @@ body {
 .login {
 	margin-left: 50%;
 }
+tr:nth-child(even) {
+	background-color: #D6EEEE;
+}
+
+tr:hover {
+	background-color: #D6EEEE;
+}
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
 </style>
 </head>
 
@@ -98,7 +113,7 @@ body {
 			</div>
 		</div>
 		<div class="row g-2">
-			<div class="col-md-12 d-flex justify-content-center">
+			<div class="col-md-12 d-flex justify-content-center m-2">
 				<button type="button" class="btn btn-primary" data-bs-toggle="modal"
 					data-bs-target="#flight">Add Flight</button>
 				<button type="button" class="btn btn-primary" data-bs-toggle="modal"
@@ -106,7 +121,43 @@ body {
 				<a href="LogoutServlet"><button class="btn btn-danger">Logout</button></a>
 			</div>
 		</div>
-
+		<div class="container">
+			<div class="row text-dark">
+				<div class="col-md-12 mb-3">
+					<p class="lead text-center m-3">Flight Table Data</p>
+					<table style="width: 100%; text-align: center;">
+						<tr>
+							<th>Id</th>
+							<th>Flight Number</th>
+							<th>Airline</th>
+							<th>Source</th>
+							<th>Destination</th>
+							<th>Date</th>
+							<th>Time</th>
+							<th>Ticket Price</th>
+						</tr>
+						<%
+							FlightDetailsDaoImpl dao = new FlightDetailsDaoImpl();
+							List<FlightDetails> flights = dao.getAllFlights();
+							for(FlightDetails flight : flights)
+							{
+								out.print("<tr>");
+								out.print("<td>"+ flight.getFlightId() + "</td>");
+								out.print("<td>"+ flight.getFlightNumber() +"</td>");
+								out.print("<td>"+ flight.getAirline() +"</td>");
+								out.print("<td>"+ flight.getSource() +"</td>");
+								out.print("<td>"+ flight.getDestination() +"</td>");
+								out.print("<td>"+ session.getAttribute("date") + "</td>");
+								out.print("<td>"+ flight.getTime() + "</td>");
+								out.print("<td>"+ flight.getPrice() +"</td>");
+								out.print("</tr>");
+							}
+						%>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
 	</div>
 	<!-- Password Change Modal -->
 	<div class="modal fade" id="change" tabindex="-1">
@@ -157,33 +208,32 @@ body {
 				<div class="modal-body">
 					<form action="AddFlight" method="POST">
 						<div class="mb-3">
-							<label for="flightNumber" class="col-form-label">Flight Number:</label>
-							<input type="text" class="form-control" id="flightNumber" name="flightNumber"
+							<label for="flightNumber" class="col-form-label">Flight
+								Number:</label> <input type="text" class="form-control"
+								id="flightNumber" name="flightNumber" required>
+						</div>
+						<div class="mb-3">
+							<label for="airline" class="col-form-label">Airline:</label> <input
+								type="text" class="form-control" id="airline" name="airline"
 								required>
 						</div>
 						<div class="mb-3">
-							<label for="airline" class="col-form-label">Airline:</label>
-							<input type="text" class="form-control" id="airline" name="airline"
-								required>
-						</div>
-						<div class="mb-3">
-							<label for="source" class="col-form-label">Source:</label>
-							<input type="text" class="form-control" id="source" name="source"
+							<label for="source" class="col-form-label">Source:</label> <input
+								type="text" class="form-control" id="source" name="source"
 								required>
 						</div>
 						<div class="mb-3">
 							<label for="destination" class="col-form-label">Destination:</label>
-							<input type="text" class="form-control" id="destination" name="destination"
-								required>
+							<input type="text" class="form-control" id="destination"
+								name="destination" required>
 						</div>
 						<div class="mb-3">
-							<label for="time" class="col-form-label">Time:</label>
-							<input type="text" class="form-control" id="time" name="time"
-								required>
+							<label for="time" class="col-form-label">Time:</label> <input
+								type="text" class="form-control" id="time" name="time" required>
 						</div>
 						<div class="mb-3">
-							<label for="price" class="col-form-label">Price:</label>
-							<input type="text" class="form-control" id="price" name="price"
+							<label for="price" class="col-form-label">Price:</label> <input
+								type="text" class="form-control" id="price" name="price"
 								required>
 						</div>
 						<input class="btn btn-primary mb-3" type="submit" value="Add">
