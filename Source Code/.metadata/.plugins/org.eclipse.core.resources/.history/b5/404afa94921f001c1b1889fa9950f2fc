@@ -1,0 +1,87 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>ValidateUser</servlet-name>
+  	<display-name>ValidateUser</display-name>
+  	<description></description>
+  	<servlet-class>com.controllers.ValidateUser</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Logout</servlet-name>
+  	<display-name>Logout</display-name>
+  	<description></description>
+  	<servlet-class>com.controllers.Logout</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LogoutServlet</servlet-name>
+  	<display-name>LogoutServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.controllers.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>RegisterUser</servlet-name>
+  	<display-name>RegisterUser</display-name>
+  	<description></description>
+  	<servlet-class>com.controllers.RegisterUser</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ChangePassword</servlet-name>
+  	<display-name>ChangePassword</display-name>
+  	<description></description>
+  	<servlet-class>com.controllers.ChangePassword</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddFlight</servlet-name>
+  	<display-name>AddFlight</display-name>
+  	<description></description>
+  	<servlet-class>com.controllers.AddFlight</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>SearchResults</servlet-name>
+  	<display-name>SearchResults</display-name>
+  	<description></description>
+  	<servlet-class>com.controllers.SearchResults</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>TravellerDetails</servlet-name>
+  	<display-name>TravellerDetails</display-name>
+  	<description></description>
+  	<servlet-class>com.controllers.TravellerDetails</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ValidateUser</servlet-name>
+  	<url-pattern>/ValidateUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Logout</servlet-name>
+  	<url-pattern>/Logout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LogoutServlet</servlet-name>
+  	<url-pattern>/LogoutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RegisterUser</servlet-name>
+  	<url-pattern>/RegisterUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ChangePassword</servlet-name>
+  	<url-pattern>/ChangePassword</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddFlight</servlet-name>
+  	<url-pattern>/AddFlight</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SearchResults</servlet-name>
+  	<url-pattern>/SearchResults</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>TravellerDetails</servlet-name>
+  	<url-pattern>/TravellerDetails</url-pattern>
+  </servlet-mapping>
+</web-app>

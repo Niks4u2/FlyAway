@@ -99,11 +99,102 @@ body {
 		</div>
 		<div class="row g-2">
 			<div class="col-md-12 d-flex justify-content-center">
-				<button class="btn btn-primary">Change Password</button>
+				<button type="button" class="btn btn-primary" data-bs-toggle="modal"
+					data-bs-target="#flight">Add Flight</button>
+				<button type="button" class="btn btn-primary" data-bs-toggle="modal"
+					data-bs-target="#change">Change Password</button>
 				<a href="LogoutServlet"><button class="btn btn-danger">Logout</button></a>
 			</div>
 		</div>
 
+	</div>
+	<!-- Password Change Modal -->
+	<div class="modal fade" id="change" tabindex="-1">
+		<div class="modal-dialog text-dark">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="enrollLabel">Change Password</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal"
+						aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<form action="ChangePassword" method="POST">
+						<div class="mb-3">
+							<label for="email" class="col-form-label">Email:</label> <input
+								type="text" class="form-control" id="email" name="email"
+								required>
+						</div>
+						<div class="mb-3">
+							<label for="newpass" class="col-form-label">New Password:</label>
+							<input type="password" class="form-control" id="newpass"
+								name="newpass" required>
+						</div>
+						<div class="mb-3">
+							<label for="password" class="col-form-label">Confirm
+								Password:</label> <input type="password" class="form-control"
+								id="password" name="password" required>
+						</div>
+						<input class="btn btn-primary mb-3" type="submit" value="Change">
+					</form>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary"
+						data-bs-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Add Flight Modal -->
+	<div class="modal fade" id="flight" tabindex="-1">
+		<div class="modal-dialog text-dark">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="enrollLabel">Add Flight</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal"
+						aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<form action="AddFlight" method="POST">
+						<div class="mb-3">
+							<label for="flightNumber" class="col-form-label">Flight Number:</label>
+							<input type="text" class="form-control" id="flightNumber" name="flightNumber"
+								required>
+						</div>
+						<div class="mb-3">
+							<label for="airline" class="col-form-label">Airline:</label>
+							<input type="text" class="form-control" id="airline" name="airline"
+								required>
+						</div>
+						<div class="mb-3">
+							<label for="source" class="col-form-label">Source:</label>
+							<input type="text" class="form-control" id="source" name="source"
+								required>
+						</div>
+						<div class="mb-3">
+							<label for="destination" class="col-form-label">Destination:</label>
+							<input type="text" class="form-control" id="destination" name="destination"
+								required>
+						</div>
+						<div class="mb-3">
+							<label for="time" class="col-form-label">Time:</label>
+							<input type="text" class="form-control" id="time" name="time"
+								required>
+						</div>
+						<div class="mb-3">
+							<label for="price" class="col-form-label">Price:</label>
+							<input type="text" class="form-control" id="price" name="price"
+								required>
+						</div>
+						<input class="btn btn-primary mb-3" type="submit" value="Add">
+					</form>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary"
+						data-bs-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
 	</div>
 </body>
 

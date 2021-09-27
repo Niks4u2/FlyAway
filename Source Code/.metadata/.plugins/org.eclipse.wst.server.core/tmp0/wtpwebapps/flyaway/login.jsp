@@ -9,6 +9,9 @@
 <link rel="stylesheet" type="text/css" href="./assets/index.css" />
 <link rel="stylesheet" type="text/css"
 	href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+	    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
 <link
 	href="https://fonts.googleapis.com/css?family=Raleway&display=swap"
 	rel="stylesheet" />
@@ -88,11 +91,42 @@ body {
 								name="password" required>
 						</div>
 						<input class="btn btn-primary mb-3" type="submit" value="Login">
-					</form>
+						<button type="button" class="btn btn-info mb-3" data-bs-toggle="modal"
+                            data-bs-target="#register">Register</button>
+					</form>	
 				</div>
 			</div>
 		</div>
 	</div>
+	
+	 <div class="modal fade" id="register" tabindex="-1">
+        <div class="modal-dialog text-dark">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="enrollLabel">Register</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="RegisterUser" method="POST">
+						<div class="mb-3">
+							<label for="email" class="col-form-label">Email:</label> <input
+								type="text" class="form-control" id="email" name="email"
+								required>
+						</div>
+						<div class="mb-3">
+							<label for="name" class="col-form-label">Password:</label> <input
+								type="password" class="form-control" id="password"
+								name="password" required>
+						</div>
+						<input class="btn btn-primary mb-3" type="submit" value="Register">
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </body>
 </html>

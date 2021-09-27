@@ -87,7 +87,7 @@ body {
 	</div>
 	<div class="row align-items-center" style="width: 100%;">
 		<div class="col-md-2 bg-secondary booking">
-			<form name="contact-form" action="">
+			<form name="contact-form" action="SearchResults">
 				<div class="mb-3">
 					<label for="date" class="col-form-label">Date:</label> <input
 						type="date" class="form-control" id="date" name="date" required>
@@ -96,20 +96,20 @@ body {
 					<label for="source" class="col-form-label">Source:</label><br>
 					<select class="form-select" name="source">
 						<option selected>Select Source</option>
-						<option value="kolkata">Kolkata(CCU)</option>
-						<option value="delhi">Delhi(DEL)</option>
-						<option value="mumbai">Mumbai(BOM)</option>
-						<option value="chennai">Chennai(MAA)</option>
+						<option value="Kolkata (CCU)">Kolkata(CCU)</option>
+						<option value="Delhi (DEL)">Delhi(DEL)</option>
+						<option value="Mumbai (BOM)">Mumbai(BOM)</option>
+						<option value="Chennai (MAA)">Chennai(MAA)</option>
 					</select>
 				</div>
 				<div class="mb-3">
 					<label for="destination" class="col-form-label">Destination:</label>
 					<select class="form-select" name="destination">
 						<option selected>Select Destination</option>
-						<option value="kolkata">Kolkata(CCU)</option>
-						<option value="delhi">Delhi(DEL)</option>
-						<option value="mumbai">Mumbai(BOM)</option>
-						<option value="chennai">Chennai(MAA)</option>
+						<option value="Kolkata (CCU)">Kolkata(CCU)</option>
+						<option value="Delhi (DEL)">Delhi(DEL)</option>
+						<option value="Mumbai (BOM)">Mumbai(BOM)</option>
+						<option value="Chennai(MAA)">Chennai(MAA)</option>
 					</select>
 				</div>
 				<div class="mb-3">
@@ -117,8 +117,7 @@ body {
 						Traveller(s):</label> <input type="number" class="form-control"
 						id="source" name="travellers" required>
 				</div>
-				<a href="search-results.jsp" class="btn btn-info mb-3 text-light">Search
-					Flights</a>
+				<input type="submit" class="btn btn-info mb-3 text-light" value="Search Flights">
 			</form>
 		</div>
 		<div class="col-md-4">

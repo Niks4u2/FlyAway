@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
+<%@ page import="java.util.List" %>
+<%@ page import="com.dto.FlightDetails" %>
 <!DOCTYPE html>
 <html>
 
@@ -63,6 +65,18 @@ body {
 </head>
 
 <body>
+
+					<% 	List<FlightDetails> flights = (List<FlightDetails>) session.getAttribute("flights"); 
+						for(FlightDetails flight : flights){
+							session.setAttribute("price", flight.getPrice());
+							session.setAttribute("flightNumber", flight.getFlightNumber());
+							session.setAttribute("airline", flight.getAirline());
+						}
+						Integer n = Integer.parseInt((String)session.getAttribute("travellers"));
+						Integer p = Integer.parseInt((String)session.getAttribute("price"));
+						Integer total = n*p;
+						session.setAttribute("total", total);
+					%>
 	<div class="container-fluid banner">
 		<div class="row">
 			<div class="col-md-12">
@@ -86,24 +100,26 @@ body {
 			<div class="card bg-secondary">
 				<div class="card-header">Ticket Details</div>
 				<div class="card-body">
-					<h5 class="card-title">Special title treatment</h5>
-					<p class="card-text">With supporting text below as a natural
-						lead-in to additional content.</p>
+					<h5 class="card-title">From <%= session.getAttribute("source") %> to <%= session.getAttribute("destination") %></h5>
+					<p class="card-text">No. of Traveller(s): <%= session.getAttribute("travellers") %></p>
 				</div>
 			</div>
 			<br>
 			<div class="col-md-12 bg-secondary" style="width: 100%;">
 				<p class="mt-3">Card details:</p>
-				<form name="contact-form" action="">
+				<form name="contact-form" action="CardDetails" method="post">
 					<div class="mb-3">
-						<label for="name" class="col-form-label">Name:</label> <input
-							type="text" class="form-control" id="name" required>
+						<label for="cardname" class="col-form-label">Name:</label> <input
+							type="text" class="form-control" id="cardname" name="cardname" required>
 					</div>
 					<div class="mb-3">
 						<label for="card-num" class="col-form-label">Card Number:</label>
-						<input type="text" class="form-control" id="card-num" required>
+						<input type="text" class="form-control" id="card-num" name="cardnum" required>
 					</div>
-					<a href="confirmation.jsp" class="btn btn-primary mb-3">Checkout</a>					
+					<div>
+					<p>Total: <%= session.getAttribute("travellers") %> x <%= session.getAttribute("price") %> = Rs. <%= total %></p>
+					</div>
+					<input type="submit" class="btn btn-primary mb-3" value="Checkout">				
 				</form>
 			</div>
 		</div>

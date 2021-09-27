@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
+<%@ page import="java.util.List" %>
+<%@ page import="com.dto.FlightDetails" %>
 <!DOCTYPE html>
 <html>
 
@@ -96,9 +98,9 @@ table, th, td {
 			</div>
 			<div class="col-md-12 text-center text-dark">
 				<h2>Search Results</h2>
-                <p>Showing available flights from Kolkata to Mumbai</p>
-                <p>Date of Travel : </p>
-                <p>No. of Travellers: </p>
+                <p>Showing available flights from <%= session.getAttribute("source") %> to <%= session.getAttribute("destination") %></p>
+                <p>Date of Travel : <%= session.getAttribute("date") %> </p>
+                <p>No. of Traveller(s): <%= session.getAttribute("travellers") %> </p>
 			</div>
 
 		</div>
@@ -107,20 +109,32 @@ table, th, td {
 				<div class="col-md-12">
 					<table style="width: 100%; text-align: center;">
 						<tr>
+							<th>Flight Number</th>
 							<th>Airline</th>
 							<th>Source</th>
 							<th>Destination</th>
 							<th>Date</th>
+							<th>Time</th>
 							<th>Ticket Price</th>
 							<th>Select</th>
 						</tr>
-						<tr>
-							<td>AirAsia</td>
-							<td>CCU</td>
-							<td>BOM</td>
-							<td>20=09-2021</td>
-							<td>1000</td>
-							<td><a href="passenger-details.jsp"><button class="btn btn-primary">Book This Flight</button></a></td>
+						<%
+							List<FlightDetails> flights = (List<FlightDetails>) session.getAttribute("flights");
+							for(FlightDetails flight : flights)
+							{
+								out.print("<tr>");
+								out.print("<td>"+ flight.getFlightNumber() +"</td>");
+								out.print("<td>"+ flight.getAirline() +"</td>");
+								out.print("<td>"+ flight.getSource() +"</td>");
+								out.print("<td>"+ flight.getDestination() +"</td>");
+								out.print("<td>"+ session.getAttribute("date") + "</td>");
+								out.print("<td>"+ flight.getTime() + "</td>");
+								out.print("<td>"+ flight.getPrice() +"</td>");
+								out.print("<td><a href='passenger-details.jsp' class='btn btn-primary'>"+ "Book This Flight" +"</a></td>");
+								out.print("</tr>");
+							}
+						%>
+<!-- 							<td><a href="passenger-details.jsp"><button class="btn btn-primary">Book This Flight</button></a></td> -->
 						</tr>
 					</table>
 				</div>

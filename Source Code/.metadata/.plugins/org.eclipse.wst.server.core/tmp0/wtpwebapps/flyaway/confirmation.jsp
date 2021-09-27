@@ -74,7 +74,7 @@ body {
 		<div class="row">
 			<div class="col-md-12 text-center text-dark">
 				<h2>Thank You!</h2>
-				<p>Your ticket has been booked. The summary/details are as
+				<p>Your ticket has been booked. The details are as
 					follows</p>
 			</div>
 		</div>
@@ -83,19 +83,19 @@ body {
 				<div class="card bg-secondary">
 					<div class="card-header">Ticket Summary</div>
 					<div class="card-body">
-						<h5 class="card-title">IND to USA on 09-21-2021</h5>
-						<p class="card-text">104 Air India</p>
+						<h5 class="card-title"><%= session.getAttribute("source") %> to <%= session.getAttribute("destination") %> on <%= session.getAttribute("date") %></h5>
+						<p class="card-text"><%= session.getAttribute("flightNumber") %> <%= session.getAttribute("airline") %></p>
 					</div>
 					<div class="card-header">Passenger Summary</div>
 					<div class="card-body">
-						<h5 class="card-title">IND to USA on 09-21-2021</h5>
-						<p class="card-text">104 Air India</p>
+						<h5 class="card-title">Booking Name: <%= session.getAttribute("pname") %> | Email: <%= session.getAttribute("pemail") %>
+						| Phone: <%= session.getAttribute("phone") %></h5>
 					</div>
 					<div class="card-header">Payment Summary</div>
 					<div class="card-body">
-						<h5 class="card-title">IND to USA on 09-21-2021</h5>
-						<p class="card-text">104 Air India</p>
+						<h5 class="card-title">Card Name: <%= session.getAttribute("cardname") %> | Card No.: <%= session.getAttribute("cardnum") %></h5>
 					</div>
+					<div class="card-header"><h2>Total Price: <%= session.getAttribute("total") %> </h2></div>
 					<button class="btn btn-primary mb-3 text-center" onclick="window.print()">Print</button>
 				</div>
 			</div>

@@ -87,20 +87,20 @@ body {
 	<div class="row align-items-center" style="width: 100%;">
 		<div class="col-md-2 bg-secondary booking">
 			<p class="mt-3">Traveller details:</p>
-			<form name="contact-form" action="">
+			<form name="contact-form" action="TravellerDetails" method="post">
 				<div class="mb-3">
-					<label for="name" class="col-form-label">Name:</label> <input
-						type="text" class="form-control" id="name" required>
+					<label for="pname" class="col-form-label">Name:</label> <input
+						type="text" class="form-control" id="pname" name="pname" required>
 				</div>
 				<div class="mb-3">
-					<label for="email" class="col-form-label">Email:</label> <input
-						type="text" class="form-control" id="email" required>
+					<label for="pemail" class="col-form-label">Email:</label> <input
+						type="text" class="form-control" id="pemail" name="pemail" required>
 				</div>
 				<div class="mb-3">
 					<label for="phone" class="col-form-label">Phone:</label> <input
-						type="number" class="form-control" id="phone" required>
+						type="number" class="form-control" id="phone" name="phone" required>
 				</div>
-					<a href="checkout.jsp" class="btn btn-primary mb-3">Submit</a>					
+					<input type="submit" class="btn btn-primary mb-3" value="Submit">					
 			</form>
 		</div>
 		<div class="col-md-4">
