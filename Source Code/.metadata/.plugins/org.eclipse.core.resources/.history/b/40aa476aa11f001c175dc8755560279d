@@ -15,6 +15,7 @@ import com.dto.Admin;
 public class AdminDaoImpl implements AdminDao{
 	
 	private SessionFactory factory;
+	Admin admin = null;
 	
 	public AdminDaoImpl() 
 	{
@@ -70,9 +71,8 @@ public class AdminDaoImpl implements AdminDao{
 		boolean isAdminValid = false;
 		String email = admin.getEmail();
 		String password = admin.getPassword();
-		Admin admindb = searchAdminByEmail(email);
 		
-		if(email.equals(admindb.getEmail()) && password.equals(admindb.getPassword()))
+		if(email.equals(admin.getEmail()) && password.equals(admin.getPassword()))
 			isAdminValid = true;
 		
 		return isAdminValid;

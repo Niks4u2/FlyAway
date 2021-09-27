@@ -114,7 +114,7 @@ body {
 					</div>
 					<div class="mb-3">
 						<label for="card-num" class="col-form-label">Card Number:</label>
-						<input type="number" class="form-control" id="card-num" name="cardnum" required>
+						<input type="text" class="form-control" id="card-num" name="cardnum" required>
 					</div>
 					<div>
 					<p>Total: <%= session.getAttribute("travellers") %> x <%= session.getAttribute("price") %> = Rs. <%= total %></p>

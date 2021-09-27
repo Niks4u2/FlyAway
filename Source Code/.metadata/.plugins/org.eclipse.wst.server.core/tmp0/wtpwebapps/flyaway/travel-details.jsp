@@ -94,7 +94,7 @@ body {
 				</div>
 				<div class="mb-3">
 					<label for="source" class="col-form-label">Source:</label><br>
-					<select class="form-select" name="source">
+					<select class="form-select" name="source" required>
 						<option selected>Select Source</option>
 						<option value="Kolkata (CCU)">Kolkata(CCU)</option>
 						<option value="Delhi (DEL)">Delhi(DEL)</option>
@@ -104,7 +104,7 @@ body {
 				</div>
 				<div class="mb-3">
 					<label for="destination" class="col-form-label">Destination:</label>
-					<select class="form-select" name="destination">
+					<select class="form-select" name="destination" required>
 						<option selected>Select Destination</option>
 						<option value="Kolkata (CCU)">Kolkata(CCU)</option>
 						<option value="Delhi (DEL)">Delhi(DEL)</option>
