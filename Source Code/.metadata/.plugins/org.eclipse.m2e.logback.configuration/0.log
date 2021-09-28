@@ -1312,3 +1312,306 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache
 2021-09-27 20:14:27,861 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2021-09-27 20:14:27,862 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2021-09-27 20:14:27,863 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\golun\Desktop\MyPhaseTwoProject\Source Code\flyaway\src\test\resources
+2021-09-27 20:59:16,470 [Worker-35: Launching Executing clean in C__Users_golun_Desktop_MyPhaseTwoProject_Source Code_flyaway] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\golun\Desktop\MyPhaseTwoProject\Source Code\flyaway
+2021-09-27 20:59:16,471 [Worker-35: Launching Executing clean in C__Users_golun_Desktop_MyPhaseTwoProject_Source Code_flyaway] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2021-09-27 20:59:20,100 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-27 20:59:20,109 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-27 20:59:20,110 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-27 20:59:20,158 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\golun\Desktop\MyPhaseTwoProject\Source Code\flyaway\src\test\resources
+2021-09-27 20:59:20,160 [Worker-40: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of flyaway
+2021-09-27 20:59:20,210 [Worker-40: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for flyaway
+2021-09-27 20:59:20,954 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-27 20:59:49,994 [Worker-20: Launching Executing clean in C__Users_golun_Desktop_MyPhaseTwoProject_Source Code_flyaway] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\golun\Desktop\MyPhaseTwoProject\Source Code\flyaway
+2021-09-27 20:59:49,994 [Worker-20: Launching Executing clean in C__Users_golun_Desktop_MyPhaseTwoProject_Source Code_flyaway] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2021-09-27 20:59:51,563 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-27 20:59:51,565 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-27 20:59:51,567 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-27 20:59:51,651 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\golun\Desktop\MyPhaseTwoProject\Source Code\flyaway\src\test\resources
+2021-09-27 20:59:51,651 [Worker-37: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of flyaway
+2021-09-27 20:59:51,652 [Worker-37: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for flyaway
+2021-09-27 20:59:51,656 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-27 20:59:58,417 [Worker-39: Launching Executing clean verify in C__Users_golun_Desktop_MyPhaseTwoProject_Source Code_flyaway] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\golun\Desktop\MyPhaseTwoProject\Source Code\flyaway
+2021-09-27 20:59:58,417 [Worker-39: Launching Executing clean verify in C__Users_golun_Desktop_MyPhaseTwoProject_Source Code_flyaway] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean verify
+2021-09-27 21:00:03,568 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-27 21:00:03,569 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-27 21:00:03,572 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-27 21:00:03,572 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\golun\Desktop\MyPhaseTwoProject\Source Code\flyaway\src\test\resources
+2021-09-27 21:00:03,573 [Worker-35: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of flyaway
+2021-09-27 21:00:03,573 [Worker-35: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for flyaway
+2021-09-27 21:00:03,576 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-27 21:02:37,088 [Worker-43: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.nikhil:flyaway:0.0.1-SNAPSHOT @ C:\Users\golun\Desktop\MyPhaseTwoProject\Source Code\flyaway\pom.xml.
+2021-09-27 21:02:40,944 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-27 21:02:40,946 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-27 21:02:40,947 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-27 21:02:40,977 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\golun\Desktop\MyPhaseTwoProject\Source Code\flyaway\src\test\resources
+2021-09-27 21:02:40,977 [Worker-43: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of flyaway
+2021-09-27 21:02:40,978 [Worker-43: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for flyaway
+2021-09-27 21:02:40,981 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-27 21:02:52,708 [Worker-39: Launching Executing clean verify in C__Users_golun_Desktop_MyPhaseTwoProject_Source Code_flyaway] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\golun\Desktop\MyPhaseTwoProject\Source Code\flyaway
+2021-09-27 21:02:52,708 [Worker-39: Launching Executing clean verify in C__Users_golun_Desktop_MyPhaseTwoProject_Source Code_flyaway] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean verify
+2021-09-27 21:02:56,790 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-27 21:02:56,791 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-27 21:02:56,792 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-27 21:02:56,833 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\golun\Desktop\MyPhaseTwoProject\Source Code\flyaway\src\test\resources
+2021-09-27 21:02:56,833 [Worker-40: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of flyaway
+2021-09-27 21:02:56,833 [Worker-40: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for flyaway
+2021-09-27 21:02:56,836 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-27 21:03:45,996 [Worker-40: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.nikhil:flyaway:0.0.1-SNAPSHOT @ C:\Users\golun\Desktop\MyPhaseTwoProject\Source Code\flyaway\pom.xml.
+2021-09-27 21:03:47,057 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-27 21:03:47,059 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-27 21:03:47,060 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-27 21:03:47,061 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\golun\Desktop\MyPhaseTwoProject\Source Code\flyaway\src\test\resources
+2021-09-27 21:03:47,062 [Worker-40: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of flyaway
+2021-09-27 21:03:47,062 [Worker-40: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for flyaway
+2021-09-27 21:03:47,065 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-27 21:03:56,637 [Worker-43: Launching Executing clean verify in C__Users_golun_Desktop_MyPhaseTwoProject_Source Code_flyaway] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\golun\Desktop\MyPhaseTwoProject\Source Code\flyaway
+2021-09-27 21:03:56,637 [Worker-43: Launching Executing clean verify in C__Users_golun_Desktop_MyPhaseTwoProject_Source Code_flyaway] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean verify
+2021-09-27 21:03:59,358 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-27 21:03:59,359 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-27 21:03:59,360 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-27 21:03:59,361 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\golun\Desktop\MyPhaseTwoProject\Source Code\flyaway\src\test\resources
+2021-09-27 21:03:59,361 [Worker-40: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of flyaway
+2021-09-27 21:03:59,361 [Worker-40: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for flyaway
+2021-09-27 21:03:59,363 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-27 21:08:39,740 [Worker-47: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-27 21:08:39,742 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-27 21:08:39,743 [Worker-47: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-27 21:08:39,744 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\golun\Desktop\MyPhaseTwoProject\Source Code\flyaway\src\test\resources
+2021-09-27 21:09:52,873 [Worker-47: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-09-27 21:09:53,087 [Worker-47: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.nikhil:flyaway:0.0.1-SNAPSHOT @ C:\Users\golun\Desktop\MyPhaseTwoProject\Source Code\flyaway\pom.xml.
+2021-09-27 21:09:54,058 [Worker-47: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /flyaway/src/main/java
+2021-09-27 21:09:54,059 [Worker-47: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /flyaway/src/main/resources
+2021-09-27 21:09:54,060 [Worker-47: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /flyaway/src/test/java
+2021-09-27 21:09:55,932 [Worker-47: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for flyaway
+2021-09-27 21:09:55,936 [Worker-47: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2021-09-27 21:09:56,396 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-27 21:09:56,398 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-27 21:09:56,400 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-27 21:09:56,402 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\golun\Desktop\MyPhaseTwoProject\Source Code\flyaway\src\test\resources
+2021-09-27 21:09:56,402 [Worker-53: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of flyaway
+2021-09-27 21:09:56,402 [Worker-53: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for flyaway
+2021-09-27 21:09:56,407 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-27 21:10:11,394 [Worker-57: Launching Executing clean in C__Users_golun_Desktop_MyPhaseTwoProject_Source Code_flyaway] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\golun\Desktop\MyPhaseTwoProject\Source Code\flyaway
+2021-09-27 21:10:11,394 [Worker-57: Launching Executing clean in C__Users_golun_Desktop_MyPhaseTwoProject_Source Code_flyaway] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2021-09-27 21:10:13,119 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-27 21:10:13,121 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-27 21:10:13,122 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-27 21:10:13,124 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\golun\Desktop\MyPhaseTwoProject\Source Code\flyaway\src\test\resources
+2021-09-27 21:10:13,124 [Worker-53: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of flyaway
+2021-09-27 21:10:13,124 [Worker-53: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for flyaway
+2021-09-27 21:10:13,127 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-27 21:10:22,419 [Worker-50: Launching Executing clean verify in C__Users_golun_Desktop_MyPhaseTwoProject_Source Code_flyaway] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\golun\Desktop\MyPhaseTwoProject\Source Code\flyaway
+2021-09-27 21:10:22,419 [Worker-50: Launching Executing clean verify in C__Users_golun_Desktop_MyPhaseTwoProject_Source Code_flyaway] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean verify
+2021-09-27 21:10:24,936 [Worker-54: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-27 21:10:24,937 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-27 21:10:24,938 [Worker-54: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-27 21:10:24,939 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\golun\Desktop\MyPhaseTwoProject\Source Code\flyaway\src\test\resources
+2021-09-27 21:10:24,940 [Worker-54: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of flyaway
+2021-09-27 21:10:24,940 [Worker-54: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for flyaway
+2021-09-27 21:10:24,942 [Worker-54: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-27 21:10:43,183 [Worker-58: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.nikhil:flyaway:0.0.1-SNAPSHOT @ C:\Users\golun\Desktop\MyPhaseTwoProject\Source Code\flyaway\pom.xml.
+2021-09-27 21:10:43,843 [Worker-58: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-27 21:10:43,848 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-27 21:10:43,851 [Worker-58: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-27 21:10:43,852 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\golun\Desktop\MyPhaseTwoProject\Source Code\flyaway\src\test\resources
+2021-09-27 21:10:43,853 [Worker-58: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of flyaway
+2021-09-27 21:10:43,853 [Worker-58: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for flyaway
+2021-09-27 21:10:43,857 [Worker-58: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-27 21:10:50,207 [Worker-58: Launching Executing clean verify in C__Users_golun_Desktop_MyPhaseTwoProject_Source Code_flyaway] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\golun\Desktop\MyPhaseTwoProject\Source Code\flyaway
+2021-09-27 21:10:50,208 [Worker-58: Launching Executing clean verify in C__Users_golun_Desktop_MyPhaseTwoProject_Source Code_flyaway] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean verify
+2021-09-27 21:10:53,453 [Worker-49: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-27 21:10:53,454 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-27 21:10:53,455 [Worker-49: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-27 21:10:53,456 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\golun\Desktop\MyPhaseTwoProject\Source Code\flyaway\src\test\resources
+2021-09-27 21:10:53,457 [Worker-49: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of flyaway
+2021-09-27 21:10:53,457 [Worker-49: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for flyaway
+2021-09-27 21:10:53,459 [Worker-49: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-27 21:11:56,124 [Worker-49: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.nikhil:flyaway:0.0.1-SNAPSHOT @ C:\Users\golun\Desktop\MyPhaseTwoProject\Source Code\flyaway\pom.xml.
+2021-09-27 21:11:56,903 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-27 21:11:56,905 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-27 21:11:56,906 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-27 21:11:56,906 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\golun\Desktop\MyPhaseTwoProject\Source Code\flyaway\src\test\resources
+2021-09-27 21:11:56,906 [Worker-49: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of flyaway
+2021-09-27 21:11:56,906 [Worker-49: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for flyaway
+2021-09-27 21:11:56,909 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-27 21:12:07,110 [Worker-54: Launching Executing clean verify in C__Users_golun_Desktop_MyPhaseTwoProject_Source Code_flyaway] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\golun\Desktop\MyPhaseTwoProject\Source Code\flyaway
+2021-09-27 21:12:07,110 [Worker-54: Launching Executing clean verify in C__Users_golun_Desktop_MyPhaseTwoProject_Source Code_flyaway] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean verify
+2021-09-27 21:12:10,242 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-27 21:12:10,259 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-27 21:12:10,260 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-27 21:12:10,260 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\golun\Desktop\MyPhaseTwoProject\Source Code\flyaway\src\test\resources
+2021-09-27 21:12:10,261 [Worker-59: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of flyaway
+2021-09-27 21:12:10,261 [Worker-59: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for flyaway
+2021-09-27 21:12:10,263 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-27 21:15:05,810 [Worker-60: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.nikhil:flyaway:0.0.1-SNAPSHOT @ C:\Users\golun\Desktop\MyPhaseTwoProject\Source Code\flyaway\pom.xml.
+2021-09-27 21:15:07,520 [Worker-60: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.pom
+2021-09-27 21:15:07,993 [Worker-60: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.pom
+2021-09-27 21:15:08,202 [Worker-60: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar
+2021-09-27 21:15:08,788 [Worker-60: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar
+2021-09-27 21:15:10,346 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-27 21:15:10,347 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-27 21:15:10,348 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-27 21:15:10,348 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\golun\Desktop\MyPhaseTwoProject\Source Code\flyaway\src\test\resources
+2021-09-27 21:15:10,349 [Worker-60: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of flyaway
+2021-09-27 21:15:10,349 [Worker-60: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for flyaway
+2021-09-27 21:15:10,352 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-27 21:15:11,822 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-27 21:15:11,823 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-27 21:15:11,824 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-27 21:15:11,825 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\golun\Desktop\MyPhaseTwoProject\Source Code\flyaway\src\test\resources
+2021-09-27 21:15:12,080 [Worker-49: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1-sources.jar
+2021-09-27 21:15:12,858 [Worker-49: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1-sources.jar
+2021-09-27 21:15:13,018 [Worker-49: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.servlet:javax.servlet-api:3.0.1
+2021-09-27 21:15:13,936 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-27 21:15:13,936 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-27 21:15:13,937 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-27 21:15:13,937 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\golun\Desktop\MyPhaseTwoProject\Source Code\flyaway\src\test\resources
+2021-09-27 21:15:21,860 [Worker-49: Launching Executing clean in C__Users_golun_Desktop_MyPhaseTwoProject_Source Code_flyaway] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\golun\Desktop\MyPhaseTwoProject\Source Code\flyaway
+2021-09-27 21:15:21,861 [Worker-49: Launching Executing clean in C__Users_golun_Desktop_MyPhaseTwoProject_Source Code_flyaway] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2021-09-27 21:15:23,845 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-27 21:15:23,846 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-27 21:15:23,847 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-27 21:15:23,847 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\golun\Desktop\MyPhaseTwoProject\Source Code\flyaway\src\test\resources
+2021-09-27 21:15:23,848 [Worker-60: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of flyaway
+2021-09-27 21:15:23,848 [Worker-60: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for flyaway
+2021-09-27 21:15:23,851 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-27 21:15:30,251 [Worker-60: Launching Executing clean verify in C__Users_golun_Desktop_MyPhaseTwoProject_Source Code_flyaway] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\golun\Desktop\MyPhaseTwoProject\Source Code\flyaway
+2021-09-27 21:15:30,251 [Worker-60: Launching Executing clean verify in C__Users_golun_Desktop_MyPhaseTwoProject_Source Code_flyaway] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean verify
+2021-09-27 21:15:33,564 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-27 21:15:33,565 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-27 21:15:33,566 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-27 21:15:33,566 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\golun\Desktop\MyPhaseTwoProject\Source Code\flyaway\src\test\resources
+2021-09-27 21:15:33,566 [Worker-61: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of flyaway
+2021-09-27 21:15:33,566 [Worker-61: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for flyaway
+2021-09-27 21:15:33,568 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-27 21:17:28,285 [Worker-54: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.nikhil:flyaway:0.0.1-SNAPSHOT @ C:\Users\golun\Desktop\MyPhaseTwoProject\Source Code\flyaway\pom.xml.
+2021-09-27 21:17:29,312 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-27 21:17:29,313 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-27 21:17:29,314 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-27 21:17:29,314 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\golun\Desktop\MyPhaseTwoProject\Source Code\flyaway\src\test\resources
+2021-09-27 21:17:29,314 [Worker-54: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of flyaway
+2021-09-27 21:17:29,314 [Worker-54: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for flyaway
+2021-09-27 21:17:29,317 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-27 21:17:30,682 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-27 21:17:30,684 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-27 21:17:30,685 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-27 21:17:30,686 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\golun\Desktop\MyPhaseTwoProject\Source Code\flyaway\src\test\resources
+2021-09-27 21:21:59,606 [Worker-49: Launching Executing clean verify in C__Users_golun_Desktop_MyPhaseTwoProject_Source Code_flyaway] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\golun\Desktop\MyPhaseTwoProject\Source Code\flyaway
+2021-09-27 21:21:59,607 [Worker-49: Launching Executing clean verify in C__Users_golun_Desktop_MyPhaseTwoProject_Source Code_flyaway] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean verify
+2021-09-27 21:22:02,987 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-27 21:22:02,987 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-27 21:22:02,988 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-27 21:22:02,989 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\golun\Desktop\MyPhaseTwoProject\Source Code\flyaway\src\test\resources
+2021-09-27 21:22:02,989 [Worker-70: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of flyaway
+2021-09-27 21:22:02,989 [Worker-70: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for flyaway
+2021-09-27 21:22:02,993 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-27 21:22:43,441 [Worker-49: Launching Executing clean verify in C__Users_golun_Desktop_MyPhaseTwoProject_Source Code_flyaway] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\golun\Desktop\MyPhaseTwoProject\Source Code\flyaway
+2021-09-27 21:22:43,441 [Worker-49: Launching Executing clean verify in C__Users_golun_Desktop_MyPhaseTwoProject_Source Code_flyaway] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean verify
+2021-09-27 21:22:46,462 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-27 21:22:46,462 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-27 21:22:46,464 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-27 21:22:46,464 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\golun\Desktop\MyPhaseTwoProject\Source Code\flyaway\src\test\resources
+2021-09-27 21:22:46,464 [Worker-64: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of flyaway
+2021-09-27 21:22:46,464 [Worker-64: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for flyaway
+2021-09-27 21:22:46,468 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-27 21:25:31,652 [Worker-73: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.nikhil:flyaway:0.0.1-SNAPSHOT @ C:\Users\golun\Desktop\MyPhaseTwoProject\Source Code\flyaway\pom.xml.
+2021-09-27 21:25:32,926 [Worker-73: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-servlet-api/10.0.0/tomcat-servlet-api-10.0.0.pom
+2021-09-27 21:25:33,421 [Worker-73: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-servlet-api/10.0.0/tomcat-servlet-api-10.0.0.pom
+2021-09-27 21:25:33,638 [Worker-73: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-juli/10.0.0/tomcat-juli-10.0.0.pom
+2021-09-27 21:25:34,164 [Worker-73: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-juli/10.0.0/tomcat-juli-10.0.0.pom
+2021-09-27 21:25:34,467 [Worker-73: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-annotations-api/10.0.0/tomcat-annotations-api-10.0.0.pom
+2021-09-27 21:25:34,936 [Worker-73: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-annotations-api/10.0.0/tomcat-annotations-api-10.0.0.pom
+2021-09-27 21:25:35,216 [Worker-73: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-api/10.0.0/tomcat-api-10.0.0.pom
+2021-09-27 21:25:35,661 [Worker-73: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-api/10.0.0/tomcat-api-10.0.0.pom
+2021-09-27 21:25:35,995 [Worker-73: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-coyote/10.0.0/tomcat-coyote-10.0.0.pom
+2021-09-27 21:25:36,564 [Worker-73: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-coyote/10.0.0/tomcat-coyote-10.0.0.pom
+2021-09-27 21:25:36,771 [Worker-73: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-util/10.0.0/tomcat-util-10.0.0.pom
+2021-09-27 21:25:37,142 [Worker-73: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-util/10.0.0/tomcat-util-10.0.0.pom
+2021-09-27 21:25:37,338 [Worker-73: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-util-scan/10.0.0/tomcat-util-scan-10.0.0.pom
+2021-09-27 21:25:37,727 [Worker-73: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-util-scan/10.0.0/tomcat-util-scan-10.0.0.pom
+2021-09-27 21:25:38,035 [Worker-73: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jaspic-api/10.0.0/tomcat-jaspic-api-10.0.0.pom
+2021-09-27 21:25:38,572 [Worker-73: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jaspic-api/10.0.0/tomcat-jaspic-api-10.0.0.pom
+2021-09-27 21:25:38,948 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-catalina/10.0.0/tomcat-catalina-10.0.0.jar
+2021-09-27 21:25:39,137 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-juli/10.0.0/tomcat-juli-10.0.0.jar
+2021-09-27 21:25:39,137 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-servlet-api/10.0.0/tomcat-servlet-api-10.0.0.jar
+2021-09-27 21:25:39,137 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jsp-api/10.0.0/tomcat-jsp-api-10.0.0.jar
+2021-09-27 21:25:39,137 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-el-api/10.0.0/tomcat-el-api-10.0.0.jar
+2021-09-27 21:25:40,814 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jsp-api/10.0.0/tomcat-jsp-api-10.0.0.jar
+2021-09-27 21:25:40,924 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-el-api/10.0.0/tomcat-el-api-10.0.0.jar
+2021-09-27 21:25:41,578 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-annotations-api/10.0.0/tomcat-annotations-api-10.0.0.jar
+2021-09-27 21:25:41,578 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-api/10.0.0/tomcat-api-10.0.0.jar
+2021-09-27 21:25:41,942 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-servlet-api/10.0.0/tomcat-servlet-api-10.0.0.jar
+2021-09-27 21:25:42,869 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jni/10.0.0/tomcat-jni-10.0.0.jar
+2021-09-27 21:25:43,122 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-juli/10.0.0/tomcat-juli-10.0.0.jar
+2021-09-27 21:25:43,145 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-api/10.0.0/tomcat-api-10.0.0.jar
+2021-09-27 21:25:43,211 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-annotations-api/10.0.0/tomcat-annotations-api-10.0.0.jar
+2021-09-27 21:25:43,981 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-util/10.0.0/tomcat-util-10.0.0.jar
+2021-09-27 21:25:43,981 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-util-scan/10.0.0/tomcat-util-scan-10.0.0.jar
+2021-09-27 21:25:43,981 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-coyote/10.0.0/tomcat-coyote-10.0.0.jar
+2021-09-27 21:25:44,565 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jni/10.0.0/tomcat-jni-10.0.0.jar
+2021-09-27 21:25:45,609 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jaspic-api/10.0.0/tomcat-jaspic-api-10.0.0.jar
+2021-09-27 21:25:47,048 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-catalina/10.0.0/tomcat-catalina-10.0.0.jar
+2021-09-27 21:25:47,099 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-util/10.0.0/tomcat-util-10.0.0.jar
+2021-09-27 21:25:47,252 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-util-scan/10.0.0/tomcat-util-scan-10.0.0.jar
+2021-09-27 21:25:47,275 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jaspic-api/10.0.0/tomcat-jaspic-api-10.0.0.jar
+2021-09-27 21:25:48,613 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-coyote/10.0.0/tomcat-coyote-10.0.0.jar
+2021-09-27 21:25:53,686 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-27 21:25:53,687 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-27 21:25:53,688 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-27 21:25:53,689 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\golun\Desktop\MyPhaseTwoProject\Source Code\flyaway\src\test\resources
+2021-09-27 21:25:53,728 [Worker-73: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of flyaway
+2021-09-27 21:25:53,729 [Worker-73: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for flyaway
+2021-09-27 21:25:53,731 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-27 21:25:55,073 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-27 21:25:55,075 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-27 21:25:55,076 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-27 21:25:55,076 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\golun\Desktop\MyPhaseTwoProject\Source Code\flyaway\src\test\resources
+2021-09-27 21:25:55,475 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-catalina/10.0.0/tomcat-catalina-10.0.0-sources.jar
+2021-09-27 21:25:57,088 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-catalina/10.0.0/tomcat-catalina-10.0.0-sources.jar
+2021-09-27 21:25:57,374 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.tomcat:tomcat-catalina:10.0.0
+2021-09-27 21:25:58,170 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-servlet-api/10.0.0/tomcat-servlet-api-10.0.0-sources.jar
+2021-09-27 21:25:59,183 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-servlet-api/10.0.0/tomcat-servlet-api-10.0.0-sources.jar
+2021-09-27 21:25:59,677 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.tomcat:tomcat-servlet-api:10.0.0
+2021-09-27 21:26:00,643 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jsp-api/10.0.0/tomcat-jsp-api-10.0.0-sources.jar
+2021-09-27 21:26:01,293 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jsp-api/10.0.0/tomcat-jsp-api-10.0.0-sources.jar
+2021-09-27 21:26:01,499 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.tomcat:tomcat-jsp-api:10.0.0
+2021-09-27 21:26:02,276 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-el-api/10.0.0/tomcat-el-api-10.0.0-sources.jar
+2021-09-27 21:26:02,752 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-el-api/10.0.0/tomcat-el-api-10.0.0-sources.jar
+2021-09-27 21:26:03,018 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.tomcat:tomcat-el-api:10.0.0
+2021-09-27 21:26:03,846 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-juli/10.0.0/tomcat-juli-10.0.0-sources.jar
+2021-09-27 21:26:05,399 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-juli/10.0.0/tomcat-juli-10.0.0-sources.jar
+2021-09-27 21:26:05,920 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.tomcat:tomcat-juli:10.0.0
+2021-09-27 21:26:06,841 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-annotations-api/10.0.0/tomcat-annotations-api-10.0.0-sources.jar
+2021-09-27 21:26:07,298 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-annotations-api/10.0.0/tomcat-annotations-api-10.0.0-sources.jar
+2021-09-27 21:26:07,694 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.tomcat:tomcat-annotations-api:10.0.0
+2021-09-27 21:26:08,537 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-api/10.0.0/tomcat-api-10.0.0-sources.jar
+2021-09-27 21:26:08,994 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-api/10.0.0/tomcat-api-10.0.0-sources.jar
+2021-09-27 21:26:09,318 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.tomcat:tomcat-api:10.0.0
+2021-09-27 21:26:10,185 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jni/10.0.0/tomcat-jni-10.0.0-sources.jar
+2021-09-27 21:26:10,764 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jni/10.0.0/tomcat-jni-10.0.0-sources.jar
+2021-09-27 21:26:10,954 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.tomcat:tomcat-jni:10.0.0
+2021-09-27 21:26:11,858 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-coyote/10.0.0/tomcat-coyote-10.0.0-sources.jar
+2021-09-27 21:26:13,342 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-coyote/10.0.0/tomcat-coyote-10.0.0-sources.jar
+2021-09-27 21:26:13,652 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.tomcat:tomcat-coyote:10.0.0
+2021-09-27 21:26:14,500 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-util/10.0.0/tomcat-util-10.0.0-sources.jar
+2021-09-27 21:26:15,312 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-util/10.0.0/tomcat-util-10.0.0-sources.jar
+2021-09-27 21:26:15,523 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.tomcat:tomcat-util:10.0.0
+2021-09-27 21:26:16,428 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-util-scan/10.0.0/tomcat-util-scan-10.0.0-sources.jar
+2021-09-27 21:26:17,101 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-util-scan/10.0.0/tomcat-util-scan-10.0.0-sources.jar
+2021-09-27 21:26:17,718 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.tomcat:tomcat-util-scan:10.0.0
+2021-09-27 21:26:18,576 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jaspic-api/10.0.0/tomcat-jaspic-api-10.0.0-sources.jar
+2021-09-27 21:26:19,060 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jaspic-api/10.0.0/tomcat-jaspic-api-10.0.0-sources.jar
+2021-09-27 21:26:19,293 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.tomcat:tomcat-jaspic-api:10.0.0
+2021-09-27 21:26:19,612 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-27 21:26:19,612 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-27 21:26:19,613 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-27 21:26:19,613 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\golun\Desktop\MyPhaseTwoProject\Source Code\flyaway\src\test\resources
+2021-09-27 21:28:00,382 [Worker-73: Launching Executing clean verify in C__Users_golun_Desktop_MyPhaseTwoProject_Source Code_flyaway] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\golun\Desktop\MyPhaseTwoProject\Source Code\flyaway
+2021-09-27 21:28:00,383 [Worker-73: Launching Executing clean verify in C__Users_golun_Desktop_MyPhaseTwoProject_Source Code_flyaway] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean verify
+2021-09-27 21:28:12,493 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-27 21:28:12,494 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-27 21:28:12,495 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-27 21:28:12,495 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\golun\Desktop\MyPhaseTwoProject\Source Code\flyaway\src\test\resources
+2021-09-27 21:28:12,495 [Worker-75: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of flyaway
+2021-09-27 21:28:12,496 [Worker-75: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for flyaway
+2021-09-27 21:28:12,499 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.

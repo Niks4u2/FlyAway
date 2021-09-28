@@ -28,6 +28,13 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<version>8.0.16</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-catalina -->
+<dependency>
+    <groupId>org.apache.tomcat</groupId>
+    <artifactId>tomcat-catalina</artifactId>
+    <version>10.0.0</version>
+</dependency>
+		
 	</dependencies>
 	<build>
 		<finalName>flyaway</finalName>
@@ -39,4 +46,10 @@
 			</plugin>
 		</plugins>
 	</build>
+	<properties>
+	 <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+     <maven.compiler.source>1.8</maven.compiler.source>
+     <maven.compiler.target>1.8</maven.compiler.target>
+</properties>
+	
 </project>
