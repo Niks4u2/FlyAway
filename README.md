@@ -13,7 +13,7 @@ Homepage displays the application name (FlyAway) and two options - Book Flights 
 <br><br>
 <b>Book Flights</b>  - <br>
 The user enters flight details (date, source, destination, travellers). 
-A query is sent to the remote database that is hosted on [AWS RDS for MySQL!]( to fetch related flights and displayed to the user.
+A query is sent to the remote database that is hosted on AWS RDS for MySQL to fetch related flights and displayed to the user.
 The User enters the personal and payment details and proceeds to book the flight. After clicking the checkout button, they are shown a confirmation page with
 the details of the booking.
 <br><br>
@@ -33,4 +33,4 @@ Application is hosted [here](http://flyaway-env-1.eba-4f85ddgn.ap-south-1.elasti
 ## Setup
 To run in your localhost - Clone into local and run project on tomcat server 8.5.
 <br><br>
-To deploy on a server use FlyAway.war file.
+To deploy on a server use `flyAway.war` file.
