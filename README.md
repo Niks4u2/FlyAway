@@ -10,7 +10,7 @@
 Homepage displays the application name (FlyAway) and two options - Book Flights and Admin Login Access.
 
 <img width="720" alt="flyaway-screenshot-homepage" src="https://raw.githubusercontent.com/Niks4u2/FlyAway/main/Screenshots/LandingPage.PNG">
-<br><br>
+
 <b>Book Flights</b>  - <br>
 The user enters flight details (date, source, destination, travellers). 
 A query is sent to the remote database that is hosted on AWS RDS for MySQL to fetch related flights and displayed to the user.
@@ -31,6 +31,6 @@ Admin can change the password and add Flight Details after Login.
 ## Demo
 Application is hosted [here](http://flyaway-env-1.eba-4f85ddgn.ap-south-1.elasticbeanstalk.com/) on AWS Elastic Beanstalk.
 ## Setup
-To run in your localhost - Clone into local and run project on tomcat server 8.5.
+To run in your localhost - Clone the project into your local directory. Edit the `hibernate.cfg.xml` file properites such as username, password, Driver Class Name and Connection URL. Then run the project on Apache Tomcat server 10.0.*
 <br><br>
-To deploy on a server use `flyAway.war` file.
+To deploy on a server use `flyaway.war` file.
